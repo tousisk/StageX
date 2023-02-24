@@ -8,9 +8,9 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --font-color: #ffffff;
+  --font-color: #030000;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #20033c;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -109,7 +109,7 @@ section {
   gap: 2rem
 }
 .countdown .clock-item {
-  list-style: circle;
+  list-style: none;
   width: 70px;
   height: auto;
 }
