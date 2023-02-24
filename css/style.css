@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: (background-image: linear-gradient(to right, #00FFF8 ,#FF00FD));
+  --bg-color: linear-gradient(to right, #00FFF8 ,#FF00FD);
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
