@@ -24,8 +24,7 @@ body {
   margin: 0;
   height: 100vh;
   font-weight: 100;
-  background: radial-gradient(#3EB489
-  ,#8301b3b2);
+  background: radial-gradient(#3EB489,#8301b3b2);
 /* -webkit-overflow-Y: hidden;*/
 /*-moz-overflow-Y: hidden;*/
 /*-o-overflow-Y: hidden;*/
@@ -59,7 +58,7 @@ button:hover{
 border: 2px solid #104F55;
 background-color: rgba(365,365,365,0.5);
 cursor: pointer;
-color: #104F55;
+color: #d000bc;
 opacity: .8;
 transition: .3s;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -87,7 +86,7 @@ animation: floatUp 4s infinite linear;
  -webkit-transform: scale(1.0);
  -moz-transform: scale(1.0);
  -o-transform: scale(1.0);
-transform: scale(1.0);
+transform: scale(2.0);
 }
 
 .x2{
