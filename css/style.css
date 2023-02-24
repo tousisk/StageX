@@ -8,7 +8,6 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: linear-gradient(to right, #00FFF8 ,#FF00FD);
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
@@ -22,7 +21,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: linear-gradient(to right, #00FFF8 ,#FF00FD);
   display: flex;
   flex-flow: column;
   height: 100vh;
