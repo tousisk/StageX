@@ -21,7 +21,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #00FFF8 ,#FF00FD);
+  background-image:-moz-radial-gradient(circle farthest-side at top left, #3eb489 10%, #f3c5f3 80%);
   display: flex;
   flex-flow: column;
   height: 100vh;
