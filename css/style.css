@@ -67,7 +67,7 @@ body {
 }
 
 .logo b{
-  font: 400 10vh "Yesteryear";
+  font: 400 15vh "Yesteryear";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
@@ -132,7 +132,7 @@ body {
     border-radius: 50px;
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width: auto;
     height: 36vh;
     box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126),
       0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
