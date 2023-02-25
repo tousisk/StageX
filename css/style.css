@@ -57,6 +57,7 @@ body {
 
 .btn-group {
   box-sizing: border-box;
+  justify-content: center;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -67,9 +68,9 @@ body {
   cursor: pointer;
   align-self: center;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1;
-  margin: 20px;
+  margin: 1em;
   padding: 1em;
   text-decoration: none;
   text-align: center;
