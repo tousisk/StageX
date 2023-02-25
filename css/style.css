@@ -55,10 +55,16 @@ display: grid;
 row-gap: 1em;
 }
 .hero-btn {
+  position: absolute;
   border-radius: 4px;
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
+  top: 60vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   display: grid;
+  row-gap: 1em;
 }
 
 .light {
