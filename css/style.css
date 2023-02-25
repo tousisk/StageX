@@ -69,7 +69,7 @@ row-gap: 1em;
   row-gap: 1em;
   width: 250px;
   height: 100px;
-  display: block;
+  display: flex;
 }
 
 button:hover{
