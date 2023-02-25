@@ -377,7 +377,7 @@ transform: translate(95vw,90vh);
 .wallet-btn {
   border-radius: 5rem;
   margin-left: 2rem;
-  border-color: transparent;
+  border-color: #e9f1f1;
 }
 
 .hero-btn {
