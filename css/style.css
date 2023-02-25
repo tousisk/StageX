@@ -11,6 +11,7 @@
   --font-color: #b20000;
   --accent-color: #20033c;
   --header-shadow: #000 0px 0px 5px;
+  --glow-color: hsl(186 100% 69%);
 }
 
 * {
@@ -77,10 +78,6 @@ button:hover{
 
   @import url("https://fonts.googleapis.com/css?family=Raleway");
 
-  :root {
-    --glow-color: hsl(186 100% 69%);
-  }
-  
   *,
   *::before,
   *::after {
