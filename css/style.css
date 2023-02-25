@@ -56,9 +56,8 @@ body {
   }
 
 .btn-group {
-  box-sizing: border-box;
+  
   justify-content: center;
-  -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
   background-color: transparent;
@@ -68,7 +67,7 @@ body {
   cursor: pointer;
   align-self: center;
   font-size: medium;
-  font-weight: 200;
+  font-weight: normal;
   line-height: 1;
   margin: 1em;
   padding: 1em;
