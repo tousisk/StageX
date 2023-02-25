@@ -54,6 +54,13 @@ margin: auto;
 transition: .3s;
 }
 
+.wallet-btn {
+  position: absolute;
+  margin:auto;
+  padding: 1rem;
+  max-width: 8rem;
+}
+
 button:hover{
 border: 2px solid #104F55;
 background-color: rgba(365,365,365,0.5);
@@ -463,13 +470,7 @@ section {
   .menu {
     gap: 1rem;
   }
-  .wallet-btn {
-    position: absolute;
-    margin:auto;
-    padding: 1rem;
-    max-width: 8rem;
-  }
-  .countdown h1 {
+   .countdown h1 {
     font-size: 2rem;
   }
   .countdown p {
