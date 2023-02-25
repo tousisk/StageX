@@ -90,6 +90,8 @@ button:hover{
   
   html,
   body {
+
+    margin: 0;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -97,14 +99,14 @@ button:hover{
   
   body {
     min-height: 100vh;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     background: black;
   }
   
   .glowing-btn {
-    position: relative;
+    position: absolute;
     color: var(--glow-color);
     cursor: pointer;
     padding: 0.35em 1em;
@@ -112,7 +114,7 @@ button:hover{
     border-radius: 0.45em;
     background: none;
     perspective: 2em;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     font-weight: 900;
     letter-spacing: 1em;
