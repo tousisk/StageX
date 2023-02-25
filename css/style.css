@@ -38,6 +38,11 @@ body {
   
 }
 
+.container {
+  width: 75%;
+  height: auto;
+  }
+
 .btn-group {
   box-sizing: border-box;
   -webkit-appearance: none;
