@@ -57,7 +57,7 @@ row-gap: 1em;
 .hero-btn {
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  border-radius: 4px;
+  border-radius: 20px;
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
   top: 60vh;
@@ -68,8 +68,12 @@ row-gap: 1em;
   display: grid;
   row-gap: 1em;
   width: 250px;
-  height: 100px;
+  height: 200px;
 }
+
+button:focus{
+  outline: solid;
+  }
 
 .light {
   position: absolute;
@@ -192,9 +196,6 @@ transform: scale(0.9);
 left: 85%;
 }
 
-button:focus{
-outline: none;
-}
 
 @-webkit-keyframes floatUp{
 0%{top: 100vh; opacity: 0;}
