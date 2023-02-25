@@ -402,7 +402,7 @@ section {
 
 .countdown ul {
   display: flex;
-  gap: 2rem
+  gap: 1rem
 }
 .countdown .clock-item {
   list-style: none;
