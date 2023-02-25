@@ -52,6 +52,7 @@ body {
 }
 
 .logo {
+  display: block;
   text-align: center;
   justify-content: center;
   width: auto;
@@ -62,7 +63,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-   user-select: none;
+  user-select: none;
 }
 
 .logo b{
