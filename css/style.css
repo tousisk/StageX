@@ -88,7 +88,7 @@ body {
   box-shadow: 0 0 10px 5px #000000 , 0 0 0 0 #3498db;
   transition: all 150ms ease-in-out;
 }
-.first:active{
+.first:active,.first:focus{
   box-shadow: 0 0 10px 0 #000000 inset, 0 0 10px 4px #3498db;
 }
 
