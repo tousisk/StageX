@@ -9,7 +9,6 @@
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --font-color: #b20000;
-  --btn-bg-color: #ffffff;
   --accent-color: #20033c;
   --header-shadow: #000 0px 0px 5px;
 }
@@ -99,7 +98,6 @@ button:hover{
   
   body {
     min-height: 100vh;
-    display: grid;
     justify-content: center;
     align-items: center;
     background: black;
