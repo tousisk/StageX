@@ -67,6 +67,7 @@ body {
 
   .frosted-glass {
     display: flex;
+    border-radius: 50px;
     justify-content: center;
     align-items: center;
     width: auto;
