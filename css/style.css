@@ -54,13 +54,6 @@ margin: auto;
 transition: .3s;
 }
 
-.wallet-btn {
-  position: absolute;
-  margin:auto;
-  padding: 1rem;
-  max-width: 8rem;
-}
-
 button:hover{
 border: 2px solid #104F55;
 background-color: rgba(365,365,365,0.5);
