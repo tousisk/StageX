@@ -37,13 +37,18 @@ body {
 
 .btn-group{
 position: absolute;
-background: transparent;
+background: #ffffff;
+background-image: -webkit-linear-gradient(top, #ffffff, #2980b9);
+background-image: -moz-linear-gradient(top, #ffffff, #2980b9);
+background-image: -ms-linear-gradient(top, #ffffff, #2980b9);
+background-image: -o-linear-gradient(top, #ffffff, #2980b9);
+background-image: linear-gradient(to bottom, #ffffff, #2980b9);
 font-family: 'Roboto', sans-serif;
 color: white;
 width: 250px;
 height: 100px;
 font-size: 1.2em;
-border-radius: 5px;
+border-radius: 39px;
 opacity: .5;
 top: 60vh;
 bottom: 0px;
@@ -212,13 +217,13 @@ outline: none;
 
 .header{
 position: absolute;
-top: 40%;
+top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-family: 'Roboto', sans-serif;
 font-weight: 200;
 color: white;
-font-size: 2em;
+font-size: 3em;
 }
 
 #head1, #head2,#head3, #head4, #head5{
