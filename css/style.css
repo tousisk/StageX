@@ -51,8 +51,8 @@ body {
   text-transform: uppercase;
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1em;
+  margin-right: 1em;
   padding: 1em;
   
   }
