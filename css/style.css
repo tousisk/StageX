@@ -27,6 +27,7 @@ body {
   font-weight: 500;
   background: radial-gradient(#3EB489,#8301b3b2);
   animation: gradient 15s ease infinite;
+  height: 100vh;
 /* -webkit-overflow-Y: hidden;*/
   -moz-overflow-Y: hidden;
 /*-o-overflow-Y: hidden;*/
@@ -38,23 +39,16 @@ body {
   
 }
 
-.css-selector {
-  background: linear-gradient(0deg, #3eb489, #560075);
-  background-size: 400% 400%;
-
-  -webkit-animation: BG 14s ease infinite;
-  animation: BG 14s ease infinite;
-}
-
-@-webkit-keyframes BG {
-  0%{background-position:50% 0%}
-  50%{background-position:51% 100%}
-  100%{background-position:50% 0%}
-}
-@keyframes BG {
-  0%{background-position:50% 0%}
-  50%{background-position:51% 100%}
-  100%{background-position:50% 0%}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .center {
   display: flex;
