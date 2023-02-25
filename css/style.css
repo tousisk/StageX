@@ -58,7 +58,7 @@ body {
   width: 400px;
   height: 150px;
   margin: auto;
-  position: absolute;
+ 
   top: 0;
   left: 0;
   right: 0;
@@ -127,7 +127,7 @@ body {
   }
 
   .frosted-glass {
-    display: block;
+    display: grid;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
