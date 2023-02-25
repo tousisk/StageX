@@ -62,7 +62,7 @@ body {
      -moz-appearance: none;
           appearance: none;
   background-color: transparent;
-  border: 2px solid #e74c3c;
+  border: 2px solid #680063;
   border-radius: 0.6em;
   color: #e74c3c;
   cursor: pointer;
@@ -86,11 +86,11 @@ body {
 .first {
   border-color: #3498db;
   color: #fff;
-  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  box-shadow: 0 0 40px 40px #000000 inset, 0 0 0 0 #3498db;
   transition: all 150ms ease-in-out;
 }
 .first:hover {
-  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  box-shadow: 0 0 10px 0 #000000 inset, 0 0 10px 4px #3498db;
 }
 
 .hero-btn {
