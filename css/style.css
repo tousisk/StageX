@@ -76,6 +76,30 @@ button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
+  .glowing-btn {
+    position: absolute;
+    color: var(--glow-color);
+    cursor: pointer;
+    padding: 0.35em 1em;
+    border: 0.15em solid var(--glow-color);
+    border-radius: 0.45em;
+    background: none;
+    perspective: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 1em;
+    display:grid;
+  
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    animation: border-flicker 2s linear infinite;
+  }
+
   @import url("https://fonts.googleapis.com/css?family=Raleway");
 
   *,
@@ -100,29 +124,7 @@ button:hover{
     background: black;
   }
   
-  .glowing-btn {
-    position: absolute;
-    color: var(--glow-color);
-    cursor: pointer;
-    padding: 0.35em 1em;
-    border: 0.15em solid var(--glow-color);
-    border-radius: 0.45em;
-    background: none;
-    perspective: 2em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    font-weight: 900;
-    letter-spacing: 1em;
-    display:grid;
-  
-    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-      0px 0px 0.5em 0px var(--glow-color);
-    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-      0px 0px 0.5em 0px var(--glow-color);
-    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-      0px 0px 0.5em 0px var(--glow-color);
-    animation: border-flicker 2s linear infinite;
-  }
+ 
   
   .glowing-txt {
     float: left;
