@@ -113,6 +113,7 @@ button:hover{
     font-size: 2em;
     font-weight: 900;
     letter-spacing: 1em;
+    display:grid;
   
     -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
       0px 0px 0.5em 0px var(--glow-color);
