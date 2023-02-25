@@ -65,6 +65,8 @@ row-gap: 1em;
   right: 0px;
   display: grid;
   row-gap: 1em;
+  width: 250px;
+  height: 100px;
 }
 
 .light {
