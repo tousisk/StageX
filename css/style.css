@@ -64,6 +64,7 @@ row-gap: 1em;
   bottom: 0px;
   left: 0px;
   right: 0px;
+  margin: auto;
   display: grid;
   row-gap: 1em;
   width: 250px;
