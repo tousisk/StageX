@@ -127,9 +127,8 @@ body {
   }
 
   .frosted-glass {
-    background-image: linear-gradient(-45deg, #000000, #772a48, #b801b8, #0d271d);
+    background-color: linear-gradient(-45deg, #000000, #114b58, #06b8ff, #0d271d);
     background-size: 200% 200%;
-    animation: gradient 8s ease infinite;
     display: grid;
     margin: auto;
     border-radius: 50px;
