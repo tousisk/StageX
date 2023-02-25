@@ -86,7 +86,7 @@ body {
 .first {
   border-color: #3498db;
   color: #fff;
-  box-shadow: 0 0 10px 30px #000000 , 0 0 0 0 #3498db;
+  box-shadow: 0 0 10px 5px #000000 , 0 0 0 0 #3498db;
   transition: all 150ms ease-in-out;
 }
 .first:hover {
