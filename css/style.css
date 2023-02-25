@@ -25,7 +25,7 @@ body {
   margin: 1em;
   height: auto;
   font-weight: 500;
-  background:"css-selector";
+  background: radial-gradient(#3EB489,#8301b3b2);
 /* -webkit-overflow-Y: hidden;*/
   -moz-overflow-Y: hidden;
 /*-o-overflow-Y: hidden;*/
@@ -55,7 +55,6 @@ body {
   50%{background-position:51% 100%}
   100%{background-position:50% 0%}
 }
-
 .center {
   display: flex;
   justify-content: center;
