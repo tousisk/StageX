@@ -46,7 +46,8 @@ body {
 .container {
   width: 75%;
   justify-content:center;
-  font-size: medium;
+  text-align: center;
+  font-size: small;
   height: auto;
   display: grid;
   margin-left: auto;
