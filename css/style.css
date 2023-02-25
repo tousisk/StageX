@@ -389,7 +389,7 @@ transform: translate(95vw,90vh);
 /* COUNTDOWN SECTION */
 
 section {
-  flex: 1 1 auto;
+  flex: 1 1 1;
 }
 
 .countdown {
