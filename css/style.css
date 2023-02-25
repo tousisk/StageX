@@ -8,9 +8,8 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --font-color: #b20000;
-  
-  --accent-color: #20033c;
+  --font-color: #3100416d;
+  --accent-color: #5600a5;
   --header-shadow: #000 0px 0px 5px;
   --glow-color: hsl(186 100% 69%);
 }
@@ -25,8 +24,8 @@ body {
   
   margin: 1em;
   height: auto;
-  font-weight: 100;
-  background: radial-gradient(#3EB489,#8301b3b2);
+  font-weight: 500;
+  background:"css-selector";
 /* -webkit-overflow-Y: hidden;*/
   -moz-overflow-Y: hidden;
 /*-o-overflow-Y: hidden;*/
@@ -37,6 +36,26 @@ body {
   animation: fadeIn 1 1s ease-out;
   
 }
+
+.css-selector {
+  background: linear-gradient(0deg, #3eb489, #560075);
+  background-size: 400% 400%;
+
+  -webkit-animation: BG 14s ease infinite;
+  animation: BG 14s ease infinite;
+}
+
+@-webkit-keyframes BG {
+  0%{background-position:50% 0%}
+  50%{background-position:51% 100%}
+  100%{background-position:50% 0%}
+}
+@keyframes BG {
+  0%{background-position:50% 0%}
+  50%{background-position:51% 100%}
+  100%{background-position:50% 0%}
+}
+
 .center {
   display: flex;
   justify-content: center;
