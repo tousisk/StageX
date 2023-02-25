@@ -71,8 +71,8 @@ row-gap: 1em;
   height: 200px;
 }
 
-button:focus{
-  outline: solid;
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
 .light {
