@@ -280,11 +280,11 @@ left: 85%;
 
 .header{
 position: absolute;
-top: 40%;
+top: 45%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-family: 'Roboto', sans-serif;
-font-weight: 400;
+font-weight: 200;
 color: white;
 font-size: 3em;
 text-align: center;
