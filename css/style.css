@@ -23,7 +23,7 @@
 
 body {
   
-  margin: 0;
+  margin: 1em;
   height: 100vh;
   font-weight: 100;
   background: radial-gradient(#3EB489,#8301b3b2);
