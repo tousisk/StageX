@@ -53,8 +53,9 @@ body {
 
 .logo {
   text-align: center;
-  width: 80%;
-  height: 250px;
+  justify-content: center;
+  width: auto;
+  height: 150px;
   margin: auto;
   position: absolute;
   top: 0;
