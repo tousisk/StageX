@@ -78,6 +78,15 @@ button:hover{
 
   .glowing-btn {
     position: absolute;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    top: 60vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
     color: var(--glow-color);
     cursor: pointer;
     padding: 0.35em 1em;
