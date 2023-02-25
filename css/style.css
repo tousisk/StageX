@@ -40,11 +40,13 @@ body {
 
 .btn-group {
   box-sizing: border-box;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: transparent;
-  border: 2px solid $red;
+  border: 2px solid #e74c3c;
   border-radius: 0.6em;
-  color: $red;
+  color: #e74c3c;
   cursor: pointer;
   display: flex;
   align-self: center;
@@ -56,21 +58,19 @@ body {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-
-  &:hover,
-  &:focus {
-    color: #fff;
-    outline: 0;
-  }
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
 }
 
 .first {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-  &:hover {
-    box-shadow: 0 0 40px 40px $red inset;
-  }
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
 }
 
 .hero-btn {
