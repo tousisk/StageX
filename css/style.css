@@ -22,13 +22,13 @@
 
 body {
   
-  margin: 1em;
-  height: auto;
-  font-weight: 500;
+  
   background: linear-gradient(#3EB489,#8301b3b2);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
+  margin: 1em;
+  font-weight: 500;
 
   
 }
