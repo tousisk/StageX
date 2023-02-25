@@ -65,7 +65,6 @@ body {
   border-radius: 0.6em;
   color: #e74c3c;
   cursor: pointer;
-  display:flex;
   align-self: center;
   font-size: 1rem;
   font-weight: 400;
