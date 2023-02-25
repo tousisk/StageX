@@ -35,7 +35,7 @@ body {
   animation: fadeIn 1 1s ease-out;
 }
 
-.btn-group{
+.btn-group{ 
 position: absolute;
 background: transparent;
 font-family: 'Roboto', sans-serif;
@@ -54,7 +54,11 @@ transition: .3s;
 display: grid;
 row-gap: 1em;
 }
-
+.hero-btn {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+}
 
 .light {
   position: absolute;
@@ -368,12 +372,6 @@ transform: translate(95vw,90vh);
 }
 
 
-
-.hero-btn {
-  border-radius: 4px;
-  font-size: 1.2rem;
-  padding: 1.5rem 3rem;
-}
 
 /* COUNTDOWN SECTION */
 
