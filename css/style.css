@@ -68,7 +68,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   position: absolute;
   width: 0px;
   opacity: .75;
-  background-color: white;
+  background-color: rgb(186, 250, 255);
   box-shadow: #e9f1f1 0px 0px 20px 2px;
   opacity: 0;
   top: 100vh;
@@ -464,7 +464,7 @@ section {
     gap: 1rem;
   }
   .wallet-btn {
-    margin-left: 0;
+    margin:auto;
     padding: 1rem;
     max-width: 8rem;
   }
