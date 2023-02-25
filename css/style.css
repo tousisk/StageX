@@ -127,7 +127,7 @@ body {
   }
 
   .frosted-glass {
-    mix-blend-mode: darken;
+    
     display: grid;
     margin: auto;
     border-radius: 50px;
