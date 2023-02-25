@@ -68,7 +68,8 @@ row-gap: 1em;
   display: grid;
   row-gap: 1em;
   width: 250px;
-  height: 200px;
+  height: 100px;
+  display: block;
 }
 
 button:hover{
