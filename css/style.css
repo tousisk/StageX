@@ -99,6 +99,7 @@ button:hover{
     font-weight: 900;
     letter-spacing: 1em;
     display:grid;
+    row-gap: 1em;
   
     -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
       0px 0px 0.5em 0px var(--glow-color);
