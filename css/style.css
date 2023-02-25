@@ -52,7 +52,7 @@ left: 0px;
 right: 0px;
 margin: auto;
 transition: .3s;
-display: block;
+display: grid;
 }
 
 
