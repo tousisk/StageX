@@ -68,7 +68,7 @@ body {
   align-self: center;
   font-size: medium;
   font-weight: normal;
-  line-height: 1;
+  line-height: normal;
   margin: 1em;
   padding: 1em;
   text-decoration: none;
