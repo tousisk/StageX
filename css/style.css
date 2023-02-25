@@ -40,7 +40,11 @@ body {
 
 .container {
   width: 75%;
+  text-align: center;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .btn-group {
