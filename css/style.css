@@ -42,8 +42,8 @@ background: transparent;
 font-family: 'Roboto', sans-serif;
 color: white;
 width: 250px;
-height: 50px;
-font-size: 1em;
+height: 80px;
+font-size: 1.2em;
 border-radius: 5px;
 opacity: .5;
 top: 60vh;
@@ -53,6 +53,7 @@ right: 0px;
 margin: auto;
 transition: .3s;
 display: grid;
+row-gap: 1em;
 }
 
 
