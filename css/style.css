@@ -47,7 +47,7 @@ body {
 .center {
   display: flex;
   justify-content: center;
-  
+  padding-bottom: 0em;
 }
 
 .container {
