@@ -67,7 +67,7 @@ body {
   color: #e74c3c;
   cursor: pointer;
   align-self: center;
-  font-size: 1rem;
+  font-size: medium;
   font-weight: 200;
   line-height: 1;
   margin: 1em;
@@ -76,7 +76,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+
 }
 .btn:hover, .btn:focus {
   color: #fff;
