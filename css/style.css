@@ -57,7 +57,7 @@ body {
   font-size: small;
   text-transform: uppercase;
   height: auto;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
