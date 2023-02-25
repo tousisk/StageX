@@ -104,25 +104,8 @@ button:hover{
 
   *,
   *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
+  *::after 
 
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  body {
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: black;
-  }
   
  
   
