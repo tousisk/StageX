@@ -28,7 +28,7 @@ body {
   font-weight: 100;
   background: radial-gradient(#3EB489,#8301b3b2);
 /* -webkit-overflow-Y: hidden;*/
-/*-moz-overflow-Y: hidden;*/
+  -moz-overflow-Y: hidden;
 /*-o-overflow-Y: hidden;*/
   overflow-y: hidden;
   -webkit-animation: fadeIn 1 1s ease-out;
@@ -45,7 +45,8 @@ body {
 
 .container {
   width: 75%;
-  justify-content: center;
+  justify-content:center;
+  font-size: medium;
   height: auto;
   display: grid;
   margin-left: auto;
