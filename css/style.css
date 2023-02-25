@@ -56,19 +56,22 @@ row-gap: 1em;
 }
 .hero-btn {
   position: absolute;
+  background: transparent;
   font-family: 'Roboto', sans-serif;
-  border-radius: 4px;
-  font-size: 1.2rem;
-  padding: 1.5rem 3rem;
+  color: rgb(0, 200, 255);
+  width: 250px;
+  height: 100px;
+  font-size: 1.2em;
+  border-radius: 39px;
+  opacity: .5;
   top: 60vh;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin: auto;
+  transition: .3s;
   display: grid;
   row-gap: 1em;
-  width: 250px;
-  height: 100px;
 }
 
 .light {
