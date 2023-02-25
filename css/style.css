@@ -84,14 +84,9 @@ button:hover{
     padding: 1.5rem 3rem;
     top: 60vh;
     bottom: 0px;
-    left: 10px;
-    right: 10px;
-    margin: auto;
     color: var(--glow-color);
     cursor: pointer;
-    padding: 0.35em 1em;
     border: 0.15em solid var(--glow-color);
-    border-radius: 0.45em;
     background: none;
     perspective: 2em;
     font-family: 'Roboto', sans-serif;
