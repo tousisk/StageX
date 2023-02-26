@@ -513,10 +513,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 1.2em;
 color: white;
 position: fixed;
--webkit-transform: translate(95vw,90vh);
--moz-transform: translate(95vw,90vh);
-transform: translate(95vw,90vh);
-transform: translate(95vw,90vh);
+
 }
 
 
