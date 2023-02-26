@@ -511,10 +511,11 @@ to{opacity: 1;}
 
 .footer{
 font-family: 'Roboto', sans-serif;
-font-size: 1em;
+font-size: 0.5em;
 color: white;
 position: absolute;
 bottom: 10px;
+text-align: center;
 
 }
 
