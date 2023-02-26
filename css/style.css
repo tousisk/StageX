@@ -140,7 +140,7 @@ body {
       0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(30px);
     transition: 0.5s ease;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
   
   
