@@ -513,7 +513,7 @@ to{opacity: 1;}
 font-family: 'Roboto', sans-serif;
 font-size: 0.8em;
 color: white;
-position: static;
+position: relative;
 bottom: 10px;
 text-align: center;
 
